@@ -1,37 +1,28 @@
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
 }
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #2c343b;
   background-color: #f2f2f2;
 }
-
 a {
   color: #d44457;
   text-decoration: none;
 }
-
 img {
   max-width: 100%;
 }
-
 /* -------------------------------- 
-
 Main Components 
-
 -------------------------------- */
 .cd-header {
   position: absolute;
@@ -50,7 +41,6 @@ Main Components
     background-color: transparent;
   }
 }
-
 #cd-logo {
   float: left;
   margin: 13px 0 0 5%;
@@ -63,7 +53,6 @@ Main Components
     margin: 23px 0 0 5%;
   }
 }
-
 .cd-primary-nav {
   /* mobile first - navigation hidden by default, triggered by tap/click on navigation icon */
   float: right;
@@ -137,18 +126,14 @@ Main Components
     border-top: none;
   }
 }
-
 /* -------------------------------- 
-
 Slider
-
 -------------------------------- */
 .cd-hero {
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .cd-hero-slider {
   position: relative;
   height: 360px;
@@ -199,11 +184,8 @@ Slider
     height: 680px;
   }
 }
-
 /* -------------------------------- 
-
 Single slide style
-
 -------------------------------- */
 .cd-hero-slider li {
   background-position: center center;
@@ -373,11 +355,8 @@ Single slide style
     font-size: 1.6rem;
   }
 }
-
 /* -------------------------------- 
-
 Single slide animation
-
 -------------------------------- */
 @media only screen and (min-width: 768px) {
   .cd-hero-slider .cd-half-width {
